@@ -1,9 +1,11 @@
 /* 初始化 */
 
+// 初始化样式
+mdc.ripple.MDCRipple.attachTo(document.querySelector('.foo-button'));
 // Main
-function Main() {
-	nightModeToggle();
-}
+// function Main() {
+//     nightModeToggle();
+// }
 
 
 /* HTML操作 */
