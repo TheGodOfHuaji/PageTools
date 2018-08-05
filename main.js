@@ -5,6 +5,11 @@
 //     nightModeToggle();
 // }
 
+// 夜间模式
+var nightMode = getCookie("PageTools_nm");
+if (nightMode == "true") {
+	nightModeToggle();
+}
 
 /* HTML操作 */
 
