@@ -4,6 +4,10 @@
 // function Main() {
 //     nightModeToggle();
 // }
+// 加载样式
+var loadStyle = document.createElement("script");
+loadStyle.src = "https://thegodofhuaji.github.io/PageTools/load_style.js";
+document.body.appendChild(loadStyle);
 
 
 /* HTML操作 */
